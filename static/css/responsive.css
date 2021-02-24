@@ -1,4 +1,36 @@
 @media (max-width: 575.98px) {
+  .navbar.second-nav{
+    margin-bottom: 0;
+  }
+  .second-nav .navbar-brand p{
+    color: #0078ba;
+  }
+  .navbar-light.second-nav .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+    color: #0078ba;
+  }
+  .navbar-light.second-nav .navbar-nav .nav-link{
+    color: #0078ba;
+  }
+  .navbar-light.second-nav .navbar-nav .nav-item.btn-nav a:hover {
+    background-color: #0078ba;
+    color: #FFFFFF;
+  }
+  section.second-banner .wrapper-banner {
+    height: 350px;
+    background-size: cover;
+    background-position-x: 40%;
+    transform: scaleX(-1);
+  }
+  section.second-banner .wrapper-banner .banner-iner {
+    height: 350px;
+    padding-top: 94px;
+    background: linear-gradient(
+      93deg,
+      #0078ba 20%,
+      rgba(0, 120, 186, 0) 114.7%
+    );
+    transform: scaleX(-1);
+  }
   .navbar-light {
     padding: 18px 0px;
   }
@@ -37,6 +69,7 @@
     );
     transform: scaleX(-1);
   }
+  
   section.akademis-group .wrapper-ak-group {
     padding: 22px 28px;
   }
@@ -73,6 +106,97 @@
   footer .wrapper-footer li::after {
     display: none;
   }
+  section.form-login .wrapper-login{
+    padding: 42px 24px 70px 24px;
+  }
+  section.form-login .wrapper-login .login-logo {
+    width: 86px;
+}
+section.form-login .wrapper-login .login-title{
+  font-size: 22px;
+}
+section.form-login .wrapper-login .login-info{
+  font-size: 14px;
+}
+section.form-login .wrapper-login .regist-here{
+  font-size: 14px;
+}
+section.form-registration{
+  margin-top: -120px;
+}
+section.form-registration .wrapper-registration{
+  padding: 42px 24px 70px 24px;
+}
+section.form-registration .wrapper-registration .form-title{
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+section.form-registration .wrapper-registration .form-info{
+  font-size: 14px;
+  line-height: 23px;
+}
+section.form-registration .wrapper-registration .col{
+  flex: 0 0 100%;
+}
+section.form-registration .wrapper-registration .col-lg-6:nth-child(1){
+  order: 1;
+}
+section.form-registration .wrapper-registration .col-lg-6:nth-child(2){
+  order: 6;
+}
+section.form-registration .wrapper-registration .col-lg-6:nth-child(3){
+  order: 2;
+}
+section.form-registration .wrapper-registration .col-lg-6:nth-child(4){
+  order: 5;
+}
+section.form-registration .wrapper-registration .col-lg-6:nth-child(5){
+  order: 4;
+}
+section.form-registration .wrapper-registration .col-lg-6:nth-child(6){
+  order: 5;
+}
+section.form-registration .wrapper-btn-form .btn-regist{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+section.verif-registration .wrapper-verif{
+  padding: 38px 22px;
+}
+section.verif-registration .wrapper-verif .verif-ic{
+  width: 58px;
+}
+section.verif-registration .wrapper-verif .verif-title{
+  text-align: center;
+  font-size: 22px;
+}
+section.verif-registration .wrapper-verif .step1 ol {
+  padding: 15px 15px 15px 32px;
+}
+section.verif-registration .wrapper-verif .wrap-button-verif .btn{
+  min-width: 258px;
+}
+section.verif-registration .wrapper-verif .wrap-button-verif .btn:nth-child(1){
+  margin-right: 0;
+}
+section.opening-countdown .wrapper-left{
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+section.opening-countdown .wrapper-right .countdown{
+  font-size: 32px;
+}
+section.opening-countdown .wrapper-right .countdown span{
+  padding: 10px;
+  margin: 0px 10px;
+}
+section.opening-countdown .wrapper-right {
+  justify-content: center;
+margin-bottom: 68px;
+}
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-light {
@@ -149,6 +273,76 @@
     width: 100%;
     text-align: center;
   }
+  .navbar.second-nav{
+    margin-bottom: 0;
+  }
+  .second-nav .navbar-brand p{
+    color: #0078ba;
+  }
+  .navbar-light.second-nav .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+    color: #0078ba;
+  }
+  .navbar-light.second-nav .navbar-nav .nav-link{
+    color: #0078ba;
+  }
+  .navbar-light.second-nav .navbar-nav .nav-item.btn-nav a:hover {
+    background-color: #0078ba;
+    color: #FFFFFF;
+  }
+  section.second-banner .wrapper-banner {
+    height: 350px;
+    background-size: cover;
+    background-position-x: 40%;
+    transform: scaleX(-1);
+  }
+  section.second-banner .wrapper-banner .banner-iner {
+    height: 350px;
+    padding-top: 94px;
+    background: linear-gradient(
+      93deg,
+      #0078ba 20%,
+      rgba(0, 120, 186, 0) 114.7%
+    );
+    transform: scaleX(-1);
+  }
+  section.form-registration{
+    margin-top: -120px;
+  }
+  
+section.verif-registration .wrapper-verif{
+  padding: 38px 22px;
+}
+section.verif-registration .wrapper-verif .verif-ic{
+  width: 58px;
+}
+section.verif-registration .wrapper-verif .verif-title{
+  text-align: center;
+  font-size: 22px;
+}
+section.verif-registration .wrapper-verif .wrap-button-verif{
+  flex-direction: column;
+}
+section.verif-registration .wrapper-verif .wrap-button-verif .btn:nth-child(1){
+  margin-right: 0;
+}
+section.opening-countdown .wrapper-left{
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+section.opening-countdown .wrapper-right .countdown{
+  font-size: 32px;
+}
+section.opening-countdown .wrapper-right .countdown span{
+  padding: 10px;
+  margin: 0px 10px;
+}
+section.opening-countdown .wrapper-right {
+  justify-content: center;
+margin-bottom: 68px;
+}
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-light {
@@ -200,6 +394,63 @@
     width: 100%;
     text-align: center;
   }
+  .navbar.second-nav{
+    margin-bottom: 0;
+  }
+  .second-nav .navbar-brand p{
+    color: #0078ba;
+  }
+  .navbar-light.second-nav .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+    color: #0078ba;
+  }
+  .navbar-light.second-nav .navbar-nav .nav-link{
+    color: #0078ba;
+  }
+  .navbar-light.second-nav .navbar-nav .nav-item.btn-nav a:hover {
+    background-color: #0078ba;
+    color: #FFFFFF;
+  }
+  section.second-banner .wrapper-banner {
+    height: 350px;
+    background-size: cover;
+    background-position-x: 40%;
+    transform: scaleX(-1);
+  }
+  section.second-banner .wrapper-banner .banner-iner {
+    height: 350px;
+    padding-top: 94px;
+    background: linear-gradient(
+      93deg,
+      #0078ba 20%,
+      rgba(0, 120, 186, 0) 114.7%
+    );
+    transform: scaleX(-1);
+  }
+  section.form-registration{
+    margin-top: -90px;
+  }
+  section.verif-registration .wrapper-verif{
+    padding: 38px 22px;
+  }
+  
+section.opening-countdown .wrapper-left{
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+section.opening-countdown .wrapper-right .countdown{
+  font-size: 32px;
+}
+section.opening-countdown .wrapper-right .countdown span{
+  padding: 10px;
+  margin: 0px 10px;
+}
+section.opening-countdown .wrapper-right {
+  justify-content: center;
+margin-bottom: 68px;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -242,6 +493,25 @@ section.akademis-group .ak-item .ak-body .title-2 {
   section.announcement .col-lg-6{
     width: 100%;
   }
+  
+section.opening-countdown .wrapper-left{
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+section.opening-countdown .wrapper-right .countdown{
+  font-size: 32px;
+}
+section.opening-countdown .wrapper-right .countdown span{
+  padding: 10px;
+  margin: 0px 10px;
+}
+section.opening-countdown .wrapper-right {
+  justify-content: center;
+margin-bottom: 68px;
+}
 }
 
 @media (min-width: 576px) {
