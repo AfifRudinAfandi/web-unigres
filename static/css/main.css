@@ -1847,3 +1847,90 @@ line-height: 28px;
 letter-spacing: 0.02em;
 color: #A2A2A2;
 }
+.info-pengumuman .title-info-pengumuman{
+  font-family: "Helvetica Neue", sans-serif;
+  margin-top: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #251462;
+  margin-bottom: 18px;
+}
+.info-pengumuman .title-info-pengumuman2{
+  font-family: "Helvetica 35 Thin", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #a2a2a2;
+  margin-bottom: 64px;
+}
+.info-pengumuman .wp-info-pengumuman{
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.info-pengumuman .wp-info-pengumuman .link-vm{
+  font-family: "Helvetica 65 Medium", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #1BB394;
+  text-decoration: none;
+  margin-top: 28px;
+}
+.info-pengumuman .wp-info-pengumuman .link-vm i{
+  margin-left: 14px;
+}
+.info-pengumuman .link-item-ann{
+  text-decoration: none;
+}
+.info-pengumuman .link-item-ann .wrappe-item-ann {
+  position: relative;
+  width: 100%;
+  min-width: 500px;
+  max-width: 500px;
+  padding: 19px 84px 19px 24px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #f3f3f4;
+  margin-bottom: 1rem;
+}
+.info-pengumuman .link-item-ann .wrappe-item-ann .item-ann-title-1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 4px;
+}
+.info-pengumuman .link-item-ann .wrappe-item-ann .item-ann-title-2 {
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #a2a2a2;
+  margin-bottom: 0;
+}
+.info-pengumuman .link-item-ann .wrappe-item-ann .badge-item {
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #1bb394;
+  padding: 8px 16px;
+  background: #def3ef;
+  border-radius: 4px;
+}
